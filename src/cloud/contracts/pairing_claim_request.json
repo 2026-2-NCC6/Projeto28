@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PairingClaimRequest",
+  "description": "Contrato para reivindicação segura de pareamento dinâmico via RPC (claim_equipment_pairing_v1)",
+  "type": "object",
+  "required": [
+    "hardware_code",
+    "pairing_code"
+  ],
+  "properties": {
+    "hardware_code": {
+      "type": "string",
+      "description": "Código de identificação física do notebook exibido no QR Code (ex: COURT_NOTEBOOK_01)"
+    },
+    "pairing_code": {
+      "type": "string",
+      "description": "Código temporário de uso único gerado pelo notebook com validade de 5 minutos"
+    }
+  }
+}

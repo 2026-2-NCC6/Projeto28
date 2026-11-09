@@ -1,0 +1,9 @@
+{
+  "appId": "com.smarttennis.app",
+  "appName": "Motion Tennis",
+  "webDir": "dist",
+  "server": {
+    "cleartext": true,
+    "androidScheme": "https"
+  }
+}

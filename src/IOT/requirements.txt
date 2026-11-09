@@ -1,0 +1,5 @@
+# MOTION TENNIS — DEPENDÊNCIAS DA PONTE SERIAL IoT
+# Python >= 3.8
+
+pyserial>=3.5
+requests>=2.30.0

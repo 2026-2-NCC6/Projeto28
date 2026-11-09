@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MatchFinishedOutboxEvent",
+  "description": "Contrato do evento MATCH_FINISHED gravado na outbox local do notebook e transmitido para a nuvem",
+  "type": "object",
+  "required": [
+    "event_id",
+    "event_type",
+    "schema_version",
+    "equipment_id",
+    "hardware_code",
+    "timestamp",
+    "payload"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Identificador único do evento gerado no notebook (evita duplicações)"
+    },
+    "event_type": {
+      "type": "string",
+      "enum": ["MATCH_FINISHED"]
+    },
+    "schema_version": {
+      "type": "string",
+      "pattern": "^1\\.[0-9]+$"
+    },
+    "equipment_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "hardware_code": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "payload": {
+      "type": "object",
+      "required": [
+        "local_session_id",
+        "user_id",
+        "mode",
+        "shots_count",
+        "hits_count",
+        "accuracy",
+        "total_score",
+        "duration_seconds",
+        "started_at",
+        "ended_at",
+        "shots"
+      ],
+      "properties": {
+        "local_session_id": {
+          "type": "string"
+        },
+        "user_id": {
+          "type": "string",
+          "format": "uuid",
+          "description": "ID do atleta que deve possuir vínculo ativo com este equipamento"
+        },
+        "mode": {
+          "type": "string",
+          "enum": ["free", "single", "clear_all"]
+        },
+        "shots_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "hits_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "accuracy": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 100.0
+        },
+        "total_score": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "duration_seconds": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "reactivations": {
+          "type": "integer",
+          "minimum": 0,
+          "default": 0
+        },
+        "is_simulation": {
+          "type": "boolean",
+          "default": false
+        },
+        "wall_preset": {
+          "type": "string",
+          "enum": ["3x2", "3x3", "4x3", "custom"],
+          "default": "3x2"
+        },
+        "xp_granted": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "started_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "ended_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "shots": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["x", "y", "score"],
+            "properties": {
+              "x": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+              "y": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+              "sector_id": { "type": ["integer", "null"], "minimum": 0, "maximum": 6 },
+              "score": { "type": "integer", "minimum": 0 },
+              "force_kmh": { "type": ["number", "null"], "minimum": 0.0 },
+              "is_hit": { "type": ["boolean", "null"] },
+              "is_bullseye": { "type": "boolean", "default": false },
+              "shot_time_offset_ms": { "type": ["integer", "null"], "minimum": 0 }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,228 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sport-bg: #101820;
+  --sport-bg-sec: #18242E;
+  --sport-card: #22313D;
+  --sport-header: #0D1B2A;
+  --sport-border: #344653;
+  --sport-text: #F1F5F9;
+  --sport-text-muted: #A8BAC8;
+  --sport-lime: #B8F044;
+  --sport-lime-hover: #A4DE2D;
+  --sport-blue: #60A5FA;
+  --sport-blue-hover: #3B82F6;
+  --sport-input: #18242E;
+  --sport-border-input: #344653;
+
+  --sport-navy: #142B3D;
+  --sport-navy-deep: #0D1C28;
+  --sport-navy-heading: #142B3D;
+  --sport-bg-light: #DCE3E8;
+  --sport-surface-alt: #C9D4DC;
+  --sport-ice: #DCE3E8;
+  --sport-orange: #FF7548;
+  --sport-slate: #475569;
+  --sport-slate-light: #64748B;
+}
+
+html.light {
+  --sport-bg: #DCE3E8;
+  --sport-bg-sec: #C9D4DC;
+  --sport-card: #F4F6F8;
+  --sport-header: #142B3D;
+  --sport-border: #B8C6D0;
+  --sport-text: #142B3D;
+  --sport-text-muted: #475569;
+  --sport-lime: #B8F044;
+  --sport-lime-hover: #A4DE2D;
+  --sport-blue: #2563EB;
+  --sport-blue-hover: #1D4ED8;
+  --sport-input: #E8EDF1;
+  --sport-border-input: #B8C6D0;
+}
+
+body {
+  margin: 0;
+  background-color: var(--sport-bg);
+  color: var(--sport-text);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--sport-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--sport-border);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--sport-lime);
+}
+
+.glass-panel {
+  background: linear-gradient(135deg, rgba(34, 49, 61, 0.85) 0%, rgba(24, 36, 46, 0.95) 100%);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--sport-border);
+}
+
+.glass-panel:hover {
+  border-color: rgba(184, 240, 68, 0.35);
+}
+
+.glass-panel-glow {
+  background: linear-gradient(135deg, rgba(34, 49, 61, 0.9) 0%, rgba(24, 36, 46, 0.98) 100%);
+  border: 1px solid #B8F044;
+  box-shadow: 0 0 20px rgba(184, 240, 68, 0.15);
+}
+
+.bg-tech-grid {
+  background-image: 
+    linear-gradient(to right, rgba(52, 70, 83, 0.35) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(52, 70, 83, 0.35) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.bg-tech-radar {
+  background-image: radial-gradient(circle, rgba(184, 240, 68, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.text-glow-neon {
+  text-shadow: 0 0 12px rgba(184, 240, 68, 0.6);
+}
+
+.btn-neon {
+  background: #B8F044;
+  color: #101820;
+  font-weight: 700;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 0 15px rgba(184, 240, 68, 0.3);
+}
+
+.btn-neon:hover {
+  background: #A4DE2D;
+  box-shadow: 0 0 25px rgba(184, 240, 68, 0.5);
+  transform: translateY(-1px);
+}
+
+.btn-neon:active {
+  transform: translateY(0);
+}
+
+.btn-outline-neon {
+  background: transparent;
+  color: #B8F044;
+  border: 1px solid #B8F044;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-outline-neon:hover {
+  background: rgba(184, 240, 68, 0.12);
+  box-shadow: 0 0 15px rgba(184, 240, 68, 0.25);
+  transform: translateY(-1px);
+}
+
+.font-sport {
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.btn-sport-lime {
+  background-color: #B8F044;
+  color: #101820;
+  font-weight: 800;
+  border-radius: 0.75rem;
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 14px 0 rgba(184, 240, 68, 0.4);
+}
+.btn-sport-lime:hover {
+  background-color: #A4DE2D;
+  box-shadow: 0 6px 18px 0 rgba(184, 240, 68, 0.5);
+  transform: translateY(-1px);
+}
+.btn-sport-lime:active {
+  transform: translateY(0);
+}
+
+.btn-sport-navy {
+  background-color: #142B3D;
+  color: #F8FAFC;
+  font-weight: 700;
+  border-radius: 0.75rem;
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-sport-navy:hover {
+  background-color: #1C3A52;
+  transform: translateY(-1px);
+}
+.btn-sport-navy:active {
+  transform: translateY(0);
+}
+
+.btn-sport-blue {
+  background-color: #2563EB;
+  color: #FFFFFF;
+  font-weight: 700;
+  border-radius: 0.75rem;
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 14px 0 rgba(37, 99, 235, 0.3);
+}
+.btn-sport-blue:hover {
+  background-color: #1D4ED8;
+  transform: translateY(-1px);
+}
+.btn-sport-blue:active {
+  transform: translateY(0);
+}
+
+.btn-sport-outline {
+  background-color: var(--sport-card);
+  color: var(--sport-text);
+  border: 1px solid var(--sport-border);
+  font-weight: 700;
+  border-radius: 0.75rem;
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-sport-outline:hover {
+  border-color: var(--sport-text);
+  background-color: var(--sport-bg-sec);
+}
+
+.card-sport {
+  background-color: var(--sport-card);
+  border: 1px solid var(--sport-border);
+  border-radius: 1rem;
+  box-shadow: 0 4px 18px -2px rgba(16, 24, 32, 0.12), 0 2px 6px -1px rgba(16, 24, 32, 0.06);
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.card-sport-hover {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.card-sport-hover:hover {
+  border-color: #B8F044;
+  box-shadow: 0 10px 24px -4px rgba(16, 24, 32, 0.20), 0 4px 10px -2px rgba(16, 24, 32, 0.10);
+  transform: translateY(-2px);
+}
+
+.input-sport {
+  background-color: var(--sport-input);
+  border: 1px solid var(--sport-border-input);
+  color: var(--sport-text);
+  border-radius: 0.75rem;
+  transition: all 0.15s ease-in-out;
+}
+.input-sport:focus {
+  outline: none;
+  border-color: #B8F044;
+  box-shadow: 0 0 0 3px rgba(184, 240, 68, 0.25);
+}

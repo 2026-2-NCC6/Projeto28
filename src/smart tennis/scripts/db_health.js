@@ -1,0 +1,20 @@
+const path = require('path');
+const crypto = require('crypto');
+const fs = require('fs');
+const s = require(path.join(__dirname, '..', 'node_modules', 'sqlite3'));
+const file = process.argv[2] || path.join(__dirname, '..', 'server', 'database', 'smart_tennis.db');
+const d = new s.Database(file, s.OPEN_READONLY);
+const q = (sql) => new Promise((res, rej) => d.all(sql, (e, r) => (e ? rej(e) : res(r))));
+(async () => {
+  console.log('Arquivo:', file);
+  console.log('SHA-256:', crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex'));
+  console.log('integrity_check:', JSON.stringify(await q('PRAGMA integrity_check')));
+  console.log('foreign_key_check:', JSON.stringify(await q('PRAGMA foreign_key_check')));
+  const tables = (await q("select name from sqlite_master where type='table' and name not like 'sqlite_%' order by name")).map((t) => t.name);
+  for (const t of tables) console.log(`  ${t}: ${(await q(`select count(*) n from ${t}`))[0].n}`);
+  console.log('users:', JSON.stringify(await q('select id,username,name,role,status from users order by id')));
+  console.log('players:', JSON.stringify(await q('select id,user_id,name,level,xp,total_shots,total_hits,best_score from players order by id')));
+  console.log('hits por usuário:', JSON.stringify(await q('select user_id,count(*) n from hits group by user_id')));
+  console.log('sessions por usuário:', JSON.stringify(await q('select user_id,count(*) n from sessions group by user_id')));
+  d.close();
+})();

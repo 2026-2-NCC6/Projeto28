@@ -1,0 +1,21 @@
+{
+  "appId": "com.motiontennis.app",
+  "appName": "Motion Tennis",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "backgroundColor": "#060D09",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#060D09"
+    }
+  }
+}

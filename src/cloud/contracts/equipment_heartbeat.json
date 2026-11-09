@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EquipmentHeartbeatEvent",
+  "description": "Contrato de telemetria periódico (60s) transmitido pelo notebook físico para a nuvem",
+  "type": "object",
+  "required": [
+    "equipment_id",
+    "hardware_code",
+    "timestamp",
+    "ping_ms",
+    "pending_outbox_count",
+    "db_integrity_ok"
+  ],
+  "properties": {
+    "equipment_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "hardware_code": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "ping_ms": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "pending_outbox_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "db_integrity_ok": {
+      "type": "boolean"
+    },
+    "app_version": {
+      "type": "string"
+    },
+    "system_metrics": {
+      "type": "object",
+      "properties": {
+        "cpu_load_percent": { "type": "number", "minimum": 0, "maximum": 100 },
+        "memory_used_mb": { "type": "number", "minimum": 0 },
+        "storage_free_mb": { "type": "number", "minimum": 0 }
+      }
+    }
+  }
+}

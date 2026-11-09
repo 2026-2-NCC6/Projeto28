@@ -1,0 +1,36 @@
+{
+  "name": "smart-tennis",
+  "version": "1.0.0",
+  "description": "Smart Tennis - Plataforma Digital Esportiva e Gamificada de Treinamento",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "node server/index.js",
+    "dev:server": "node server/index.js",
+    "client": "npm --prefix client run dev",
+    "dev": "concurrently \"node server/index.js\" \"npm --prefix client run dev\"",
+    "build:client": "npm --prefix client run build",
+    "build": "npm run build:client && npm run build:launcher",
+    "build:launcher": "powershell -ExecutionPolicy Bypass -File ./scripts/build_launcher.ps1",
+    "smart-tennis": "node scripts/start.js"
+  },
+  "keywords": [
+    "tennis",
+    "sports-tech",
+    "gamification",
+    "smart-equipment",
+    "iot",
+    "training"
+  ],
+  "author": "Smart Tennis Team",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "sqlite3": "^5.1.7",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
