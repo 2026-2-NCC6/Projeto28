@@ -110,8 +110,8 @@
 | **Campo** | **Descrição** |
 | :--- | :--- |
 | **Aluno(s) Responsável(veis)** | Nicolas Roberto Jordan Morales |
-| **Ferramenta utilizada** | ChatGPT (OpenAI) |
-| **Versão/modelo** | GPT-6 (OpenAI) |
+| **Ferramenta utilizada** | ChatGPT (OpenAI) e Claude (Anthropic)|
+| **Versão/modelo** | GPT-6 (OpenAI) e Claude Sonnet 5.5 (Medium)|
 | **Disciplina / Trabalho** | Entrega 2 - Sistemas Embarcados e Robótica |
 | **Finalidade de uso** | Apoio na análise e conferência dos cálculos das diferenças de tempo entre os sensores para estimar a localização dos impactos. Verificação da coerência dos resultados obtidos e auxílio na interpretação das coordenadas para identificar se as batidas ocorreram dentro ou fora das áreas de treinamento. |
 | **Prompts principais utilizados** | 1. "Me ajuda com a lógica de cálculo da diferença de tempo entre os sensores para estimar onde aconteceu o impacto."<br><br>2. "Analise os tempos registrados pelos três sensores e confira se as diferenças calculadas estão corretas."<br><br>3. "Com base nas coordenadas calculadas e nas dimensões da parede, verifique se o impacto está dentro de um dos seis alvos, em uma área neutra ou fora dos limites." |
