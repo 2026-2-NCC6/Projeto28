@@ -82,16 +82,15 @@
 
 ### Projeto Interdisciplinar Internet das Coisas e Robótica
 
-
 | **Campo** | **Descrição** |
 | :--- | :--- |
 | **Aluno(s) Responsável(veis)** | Nicolas Roberto Jordan Morales |
 | **Ferramenta utilizada** | ChatGPT (OpenAI), Gemini (Google) e Claude (Anthropic) |
 | **Versão/modelo** | GPT-6 (OpenAI), Gemini 3.8 Flash (Medium) e Claude Sonnet 5.5 (Medium) |
 | **Disciplina / Trabalho** | Entrega 2 - Projeto Interdisciplinar Internet das Coisas e Robótica |
-| **Finalidade de uso** | Apoio na revisão da arquitetura modular e da integração IoT entre sensores, Arduino, backend e aplicação. Auxílio na lógica de cálculo das diferenças temporais entre os sensores para estimativa dos impactos. Análise dos endpoints e rotas de comunicação com serviços online. Identificação e correção de falhas no funcionamento e na comunicação entre os componentes. Comparação dos requisitos da Entrega 02 com o documento anterior e revisão da escrita e das evidências do relatório acadêmico. |
-| **Prompts principais utilizados** | 1. "Vou te enviar o documento anterior e o que foi pedido na Entrega 02. Compara os dois e vê o que precisamos atualizar no relatório."<br><br>2. "Analisa a integração entre os sensores, Arduino, backend e aplicação e verifica se a arquitetura está bem organizada ou se precisa de algum ajuste."<br><br>3. "Me ajuda com a lógica de cálculo da diferença de tempo entre os sensores para estimar onde aconteceu o impacto."<br><br>4. "Já configurei as conexões entre o backend e os serviços online. Analise a estrutura do projeto e identifique onde precisam ser configurados os endpoints, listeners e rotas para receber e processar os dados corretamente."<br><br>5. "Verifique possíveis falhas na comunicação entre os sensores, o backend e a interface do jogo e auxilie nas correções necessárias."<br><br>6. "Dá uma olhada no relatório atualizado e verifica se os testes, as evidências e as alterações ficaram claros. Melhora a escrita sem mudar as informações técnicas." |
-| **Trechos ou entregas afetadas** | Integração IoT, lógica de cálculo das diferenças temporais entre sensores para estimativa dos impactos, configuração de endpoints e listeners, comunicação entre frontend, backend e serviços web, correções de funcionamento, revisão da arquitetura modular e documentação técnica. |
+| **Finalidade de uso** | Apoio na revisão da arquitetura modular e da integração entre sensores, Arduino, backend e aplicação digital. Análise da comunicação entre os componentes, identificação e correção de falhas no funcionamento do sistema. Comparação dos requisitos da Entrega 02 com o planejamento anterior e revisão da escrita e das evidências do relatório acadêmico. |
+| **Prompts principais utilizados** | 1. "Vou te enviar o documento anterior e o que foi pedido na Entrega 02. Compara os dois e vê o que precisamos atualizar no relatório."<br><br>2. "Analisa a integração entre os sensores, Arduino, backend e aplicação e verifica se a arquitetura está bem organizada ou se precisa de algum ajuste."<br><br>3. "Já configurei as conexões entre o backend e os serviços online. Analise a estrutura do projeto e identifique onde precisam ser configurados os endpoints, listeners e rotas para receber e processar os dados corretamente."<br><br>4. "Verifique possíveis falhas na comunicação entre os sensores, o backend e a interface do jogo e auxilie nas correções necessárias."<br><br>5. "Dá uma olhada no relatório atualizado e verifica se os testes, as evidências e as alterações ficaram claros. Melhora a escrita sem mudar as informações técnicas." |
+| **Trechos ou entregas afetadas** | Arquitetura modular, integração entre hardware e software, comunicação entre frontend e backend, correções de funcionamento e documentação técnica da Entrega 02. |
 
 
 ### Redes de Computadores e Cibersegurança
@@ -108,15 +107,19 @@
 
 ### Sistemas Embarcados e Robótica
 
+
+### Sistemas Embarcados e Robótica
+
 | **Campo** | **Descrição** |
 | :--- | :--- |
-| **Aluno(s) Responsável(veis)** | [Preencher] |
-| **Ferramenta utilizada** | [Preencher] |
-| **Versão/modelo** | [Preencher] |
+| **Aluno(s) Responsável(veis)** | Nicolas Roberto Jordan Morales |
+| **Ferramenta utilizada** | ChatGPT (OpenAI) |
+| **Versão/modelo** | GPT-6 (OpenAI) |
 | **Disciplina / Trabalho** | Entrega 2 - Sistemas Embarcados e Robótica |
-| **Finalidade de uso** | [Preencher] |
-| **Prompts principais utilizados** | [Preencher] |
-| **Trechos ou entregas afetadas** | [Preencher] |
+| **Finalidade de uso** | Apoio na análise e conferência dos cálculos das diferenças de tempo entre os sensores para estimar a localização dos impactos. Verificação da coerência dos resultados obtidos e auxílio na interpretação das coordenadas para identificar se as batidas ocorreram dentro ou fora das áreas de treinamento. |
+| **Prompts principais utilizados** | 1. "Me ajuda com a lógica de cálculo da diferença de tempo entre os sensores para estimar onde aconteceu o impacto."<br><br>2. "Analise os tempos registrados pelos três sensores e confira se as diferenças calculadas estão corretas."<br><br>3. "Com base nas coordenadas calculadas e nas dimensões da parede, verifique se o impacto está dentro de um dos seis alvos, em uma área neutra ou fora dos limites." |
+| **Trechos ou entregas afetadas** | Cálculos das diferenças temporais, estimativa da localização dos impactos, verificação dos limites das áreas de treinamento. |
+
 
 ### Teoria da Computação e Linguagens Formais
 
