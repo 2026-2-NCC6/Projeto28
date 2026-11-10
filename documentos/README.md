@@ -82,15 +82,17 @@
 
 ### Projeto Interdisciplinar Internet das Coisas e Robótica
 
+
 | **Campo** | **Descrição** |
 | :--- | :--- |
 | **Aluno(s) Responsável(veis)** | Nicolas Roberto Jordan Morales |
-| **Ferramenta utilizada** | ChatGPT (OpenAI) |
-| **Versão/modelo** | GPT-6, modelo da OpenAI |
+| **Ferramenta utilizada** | ChatGPT (OpenAI), Gemini (Google) e Claude (Anthropic) |
+| **Versão/modelo** | GPT-6 (OpenAI), Gemini 3.8 Flash (Medium) e Claude Sonnet 5.5 (Medium) |
 | **Disciplina / Trabalho** | Entrega 2 - Projeto Interdisciplinar Internet das Coisas e Robótica |
-| **Finalidade de uso** | Apoio na revisão da arquitetura modular e da integração IoT entre sensores, Arduino, backend e aplicação; auxílio na lógica de cálculo das diferenças temporais entre os sensores para estimativa dos impactos; análise dos pontos de escuta, endpoints e rotas de comunicação com serviços online; comparação dos requisitos da Entrega 02 com o documento anterior e revisão da escrita e das evidências do relatório acadêmico. |
-| **Prompts principais utilizados** | 1. "Vou te enviar o documento anterior e o que foi pedido na Entrega 02. Compara os dois e vê o que precisamos atualizar no relatório."<br><br>2. "Analisa a integração entre os sensores, Arduino, backend e aplicação e verifica se a arquitetura está bem organizada ou se precisa de algum ajuste."<br><br>3. "Me ajuda com a lógica de cálculo da diferença de tempo entre os sensores para estimar onde aconteceu o impacto."<br><br>4. "Já configurei as conexões entre o backend e os serviços online. Analise a estrutura do projeto e identifique onde precisam ser configurados os endpoints, listeners e rotas para receber e processar os dados corretamente."<br><br>5. "Dá uma olhada no relatório atualizado e verifica se os testes, as evidências e as alterações ficaram claros. Melhora a escrita sem mudar as informações técnicas." |
-| **Trechos ou entregas afetadas** | Integração IoT, lógica de cálculo das diferenças temporais entre sensores para estimativa dos impactos, configuração de endpoints e listeners, integração entre backend e serviços web, revisão da arquitetura modular e documentação técnica. |
+| **Finalidade de uso** | Apoio na revisão da arquitetura modular e da integração IoT entre sensores, Arduino, backend e aplicação. Auxílio na lógica de cálculo das diferenças temporais entre os sensores para estimativa dos impactos. Análise dos endpoints e rotas de comunicação com serviços online. Identificação e correção de falhas no funcionamento e na comunicação entre os componentes. Comparação dos requisitos da Entrega 02 com o documento anterior e revisão da escrita e das evidências do relatório acadêmico. |
+| **Prompts principais utilizados** | 1. "Vou te enviar o documento anterior e o que foi pedido na Entrega 02. Compara os dois e vê o que precisamos atualizar no relatório."<br><br>2. "Analisa a integração entre os sensores, Arduino, backend e aplicação e verifica se a arquitetura está bem organizada ou se precisa de algum ajuste."<br><br>3. "Me ajuda com a lógica de cálculo da diferença de tempo entre os sensores para estimar onde aconteceu o impacto."<br><br>4. "Já configurei as conexões entre o backend e os serviços online. Analise a estrutura do projeto e identifique onde precisam ser configurados os endpoints, listeners e rotas para receber e processar os dados corretamente."<br><br>5. "Verifique possíveis falhas na comunicação entre os sensores, o backend e a interface do jogo e auxilie nas correções necessárias."<br><br>6. "Dá uma olhada no relatório atualizado e verifica se os testes, as evidências e as alterações ficaram claros. Melhora a escrita sem mudar as informações técnicas." |
+| **Trechos ou entregas afetadas** | Integração IoT, lógica de cálculo das diferenças temporais entre sensores para estimativa dos impactos, configuração de endpoints e listeners, comunicação entre frontend, backend e serviços web, correções de funcionamento, revisão da arquitetura modular e documentação técnica. |
+
 
 ### Redes de Computadores e Cibersegurança
 
