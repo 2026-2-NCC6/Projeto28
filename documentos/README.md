@@ -52,7 +52,7 @@
 | **Prompts principais utilizados** | [Preencher] |
 | **Trechos ou entregas afetadas** | [Preencher] |
 
-### Teoria da Computação e Linguagens Formais
+### Teoria da Computação e Linguagens Formais 
 
 | **Campo** | **Descrição** |
 | :--- | :--- |
@@ -120,13 +120,13 @@
 
 | **Campo** | **Descrição** |
 | :--- | :--- |
-| **Aluno(s) Responsável(veis)** | [Preencher] |
-| **Ferramenta utilizada** | [Preencher] |
-| **Versão/modelo** | [Preencher] |
+| **Aluno(s) Responsável(veis)** | Felipe Ojo |
+| **Ferramenta utilizada** | ChatGPT (OpenAI) |
+| **Versão/modelo** | GPT-6 (OpenAI) |
 | **Disciplina / Trabalho** | Entrega 2 - Teoria da Computação e Linguagens Formais |
-| **Finalidade de uso** | [Preencher] |
-| **Prompts principais utilizados** | [Preencher] |
-| **Trechos ou entregas afetadas** | [Preencher] |
+| **Finalidade de uso** | Revisão da escrita e da linguagem acadêmica, verificação de possíveis inconsistências na máquina de estados e conferência dos requisitos solicitados para a entrega, com sugestões de melhoria. |
+| **Prompts principais utilizados** | 1. "Revise o documento de Teoria da Computação e Linguagens Formais e veja se a escrita está adequada para uma entrega acadêmica, sem alterar o conteúdo técnico."<br><br>2. "Analise a máquina de estados e verifique se existe alguma inconsistência ou algum ponto que precisa ser explicado melhor."<br><br>3. "Compare o documento com os requisitos da entrega e veja se ficou faltando alguma informação importante ou se existe algum ponto que precisa ser corrigido." |
+| **Trechos ou entregas afetadas** | Documento integral. |
 
 ---
 
