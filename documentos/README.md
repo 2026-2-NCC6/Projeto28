@@ -107,9 +107,6 @@
 
 ### Sistemas Embarcados e Robótica
 
-
-### Sistemas Embarcados e Robótica
-
 | **Campo** | **Descrição** |
 | :--- | :--- |
 | **Aluno(s) Responsável(veis)** | Nicolas Roberto Jordan Morales |
