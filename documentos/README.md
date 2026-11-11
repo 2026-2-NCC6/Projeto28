@@ -32,13 +32,13 @@
 
 | **Campo** | **Descrição** |
 | :--- | :--- |
-| **Aluno(s) Responsável(veis)** | [Preencher] |
-| **Ferramenta utilizada** | [Preencher] |
-| **Versão/modelo** | [Preencher] |
+| **Aluno(s) Responsável(veis)** | Gabriel Marussi |
+| **Ferramenta utilizada** | ChatGPT (OpenAI) |
+| **Versão/modelo** | GPT-6 (OpenAI) |
 | **Disciplina / Trabalho** | Entrega 1 - Redes de Computadores e Cibersegurança |
-| **Finalidade de uso** | [Preencher] |
-| **Prompts principais utilizados** | [Preencher] |
-| **Trechos ou entregas afetadas** | [Preencher] |
+| **Finalidade de uso** | Auxílio na elaboração da tabela de riscos do projeto Motion Tênis, com base no documento do projeto, incluindo sugestões de medidas preventivas e de mitigação e organização dos planos de gerenciamento e resposta aos riscos. |
+| **Prompts principais utilizados** | 1. "Com base no documento do projeto Motion Tênis, auxilie na identificação e análise dos possíveis riscos relacionados à segurança cibernética. Sugira medidas preventivas e de mitigação adequadas."<br><br>2. "Com base no modelo de referência fornecido, organize e formate os planos de resposta e gerenciamento de riscos conforme o padrão solicitado, preservando as informações do trabalho." |
+| **Trechos ou entregas afetadas** | Tabela de identificação e análise de riscos, medidas preventivas e de mitigação e planos de gerenciamento e resposta aos riscos. |
 
 ### Sistemas Embarcados e Robótica
 
@@ -72,13 +72,13 @@
 
 | **Campo** | **Descrição** |
 | :--- | :--- |
-| **Aluno(s) Responsável(veis)** | [Preencher] |
-| **Ferramenta utilizada** | [Preencher] |
-| **Versão/modelo** | [Preencher] |
+| **Aluno(s) Responsável(veis)** | Gabriel Marussi |
+| **Ferramenta utilizada** | Canva (Canva) |
+| **Versão/modelo** | Canva IA 2.0 |
 | **Disciplina / Trabalho** | Entrega 2 - Inovação e Empreendedorismo |
-| **Finalidade de uso** | [Preencher] |
-| **Prompts principais utilizados** | [Preencher] |
-| **Trechos ou entregas afetadas** | [Preencher] |
+| **Finalidade de uso** | Auxílio na organização visual e na elaboração dos slides do projeto Motion Tênis, utilizando o conteúdo já desenvolvido e o documento do projeto como referência. |
+| **Prompts principais utilizados** | 1. "Com base no documento do projeto Motion Tênis e nos conteúdos já inseridos nos slides, organize visualmente a apresentação com uma identidade visual relacionada ao tênis, à tecnologia e à inovação. Melhore a distribuição dos textos, títulos e elementos gráficos, mantendo as informações originais." |
+| **Trechos ou entregas afetadas** | Apresentação de slides do projeto Motion Tênis, principalmente na organização visual, identidade gráfica, distribuição dos conteúdos e elementos ilustrativos. |
 
 ### Projeto Interdisciplinar Internet das Coisas e Robótica
 
@@ -92,18 +92,17 @@
 | **Prompts principais utilizados** | 1. "Vou te enviar o documento anterior e o que foi pedido na Entrega 02. Compara os dois e vê o que precisamos atualizar no relatório."<br><br>2. "Analisa a integração entre os sensores, Arduino, backend e aplicação e verifica se a arquitetura está bem organizada ou se precisa de algum ajuste."<br><br>3. "Já configurei as conexões entre o backend e os serviços online. Analise a estrutura do projeto e identifique onde precisam ser configurados os endpoints, listeners e rotas para receber e processar os dados corretamente."<br><br>4. "Verifique possíveis falhas na comunicação entre os sensores, o backend e a interface do jogo e auxilie nas correções necessárias."<br><br>5. "Dá uma olhada no relatório atualizado e verifica se os testes, as evidências e as alterações ficaram claros. Melhora a escrita sem mudar as informações técnicas." |
 | **Trechos ou entregas afetadas** | Arquitetura modular, integração entre hardware e software, comunicação entre frontend e backend, correções de funcionamento e documentação técnica da Entrega 02. |
 
-
 ### Redes de Computadores e Cibersegurança
 
 | **Campo** | **Descrição** |
 | :--- | :--- |
-| **Aluno(s) Responsável(veis)** | [Preencher] |
-| **Ferramenta utilizada** | [Preencher] |
-| **Versão/modelo** | [Preencher] |
+| **Aluno(s) Responsável(veis)** | Gabriel Marussi |
+| **Ferramenta utilizada** | ChatGPT (OpenAI) e Claude (Anthropic) |
+| **Versão/modelo** | GPT-6 (OpenAI) e Claude Sonnet 5.5 (Medium) |
 | **Disciplina / Trabalho** | Entrega 2 - Redes de Computadores e Cibersegurança |
-| **Finalidade de uso** | [Preencher] |
-| **Prompts principais utilizados** | [Preencher] |
-| **Trechos ou entregas afetadas** | [Preencher] |
+| **Finalidade de uso** | Auxílio na interpretação dos relatórios gerados pelo Aikido Security, na organização dos resultados e na atualização da tabela de riscos do projeto Motion Tênis. Também foram utilizados para revisar e formatar os textos da entrega. |
+| **Prompts principais utilizados** | 1. "Com base nos relatórios do Aikido Security, auxilie na interpretação dos resultados e na identificação das vulnerabilidades encontradas. Organize as informações na tabela de riscos, indicando possíveis impactos, prioridades e medidas de mitigação, sem acrescentar informações que não estejam nos relatórios."<br><br>2. "Revise e organize os planos de gerenciamento e resposta aos riscos conforme o modelo de referência fornecido, mantendo o conteúdo técnico e adequando a formatação ao padrão solicitado." |
+| **Trechos ou entregas afetadas** | Interpretação e organização dos resultados do Aikido Security, atualização da tabela de riscos, descrição dos impactos e das medidas de mitigação e revisão da formatação dos textos. |
 
 ### Sistemas Embarcados e Robótica
 
@@ -117,7 +116,6 @@
 | **Prompts principais utilizados** | 1. "Me ajuda com a lógica de cálculo da diferença de tempo entre os sensores para estimar onde aconteceu o impacto."<br><br>2. "Analise os tempos registrados pelos três sensores e confira se as diferenças calculadas estão corretas."<br><br>3. "Com base nas coordenadas calculadas e nas dimensões da parede, verifique se o impacto está dentro de um dos seis alvos, em uma área neutra ou fora dos limites." |
 | **Trechos ou entregas afetadas** | Cálculos das diferenças temporais, estimativa da localização dos impactos, verificação dos limites das áreas de treinamento. |
 
-
 ### Teoria da Computação e Linguagens Formais
 
 | **Campo** | **Descrição** |
@@ -127,7 +125,7 @@
 | **Versão/modelo** | GPT-6 (OpenAI) |
 | **Disciplina / Trabalho** | Entrega 2 - Teoria da Computação e Linguagens Formais |
 | **Finalidade de uso** | Revisão da escrita e da linguagem acadêmica, verificação de possíveis inconsistências na máquina de estados e conferência dos requisitos solicitados para a entrega, com sugestões de melhoria. |
-| **Prompts principais utilizados** | 1. "Revise o documento de Teoria da Computação e Linguagens Formais e veja se a escrita está adequada para uma entrega acadêmica, sem alterar o conteúdo técnico."<br><br>2. "Analise a máquina de estados e verifique se existe alguma inconsistência ou algum ponto que precisa ser explicado melhor."<br><br>3. "Compare o documento com os requisitos da entrega e veja se ficou faltando alguma informação importante ou se existe algum ponto que precisa ser corrigido."<br><br> 4. "Verifique se o novo modelo da máquina de estados está adequado para o novo projeto." |
+| **Prompts principais utilizados** | 1. "Revise o documento de Teoria da Computação e Linguagens Formais e veja se a escrita está adequada para uma entrega acadêmica, sem alterar o conteúdo técnico."<br><br>2. "Analise a máquina de estados e verifique se existe alguma inconsistência ou algum ponto que precisa ser explicado melhor."<br><br>3. "Compare o documento com os requisitos da entrega e veja se ficou faltando alguma informação importante ou se existe algum ponto que precisa ser corrigido."<br><br>4. "Verifique se o novo modelo da máquina de estados está adequado para o novo projeto." |
 | **Trechos ou entregas afetadas** | Documento integral. |
 
 ---
