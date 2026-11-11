@@ -44,13 +44,30 @@
 
 | **Campo** | **Descrição** |
 | :--- | :--- |
-| **Aluno(s) Responsável(veis)** | [Preencher] |
-| **Ferramenta utilizada** | [Preencher] |
-| **Versão/modelo** | [Preencher] |
+| **Aluno(s) Responsável(veis)** | Arthur Ferreira |
+| **Ferramenta utilizada** | Microsoft Copilot |
+| **Versão/modelo** | Microsoft Copilot, powered by GPT-5.6 |
 | **Disciplina / Trabalho** | Entrega 1 - Sistemas Embarcados e Robótica |
-| **Finalidade de uso** | [Preencher] |
-| **Prompts principais utilizados** | [Preencher] |
-| **Trechos ou entregas afetadas** | [Preencher] |
+| **Finalidade de uso** | Apoio na evolução do Projeto 1 para um sistema com três sensores de captação de som; definição da lógica de detecção direcional; elaboração e comentário do código Arduino; criação de esquemas elétricos e exemplos visuais no estilo Tinkercad; organização, revisão e formatação do relatório em preto e branco; geração de versões PDF e DOCX editável. |
+| **Prompts principais utilizados** | 	- Criar o exemplo de funcionamento lógico para comparação dos sensores esquerdo, central e direito.
+- Incluir imagens simuladas do esquema elétrico, LEDs por PWM, buzzer e janela de amostragem para reduzir ruídos.
+- Comentar partes estruturais do código-fonte e do esquema elétrico.
+- Refazer o relatório em preto e branco e gerar uma versão DOCX para edição complementar. |
+| **Trechos ou entregas afetadas** | Definição conceitual do detector direcional; arquitetura com três sensores; mapa de conexões; código Arduino comentado; esquemas e exemplos visuais; plano de calibração e testes; revisão textual e ortográfica. |
+
+
+| **Campo** | **Descrição** |
+| :--- | :--- |
+| **Aluno(s) Responsável(veis)** | Arthur Ferreira |
+| **Ferramenta utilizada** | Microsoft Copilot |
+| **Versão/modelo** | Microsoft Copilot, powered by GPT-5.6 |
+| **Disciplina / Trabalho** | Entrega 2 - Sistemas Embarcados e Robótica |
+| **Finalidade de uso** | Apoio na estruturação de tópicos do relatório Motion Tennis; organização do relatório acadêmico; explicação dos requisitos; revisão e melhoria ortográfica da redação; elaboração de exemplos de lógica, arquitetura e código Arduino. O conteúdo foi revisado e adaptado pelo grupo antes da entrega. |
+| **Prompts principais utilizados** | 	-Organize o projeto Motion Tennis em formato de relatório acadêmico.
+- Adicione comentários faltantes sobre a arquitetura, os componentes, a lógica e as conexões do sistema.
+- Comente exemplos de código Arduino.
+- Revise, simplifique e converta o relatório para PDF e DOCX editável. |
+| **Trechos ou entregas afetadas** | Estrutura e redação do relatório; descrição do projeto e de sua arquitetura; explicações da lógica; revisão textual, diagramação e conversão do documento |
 
 ### Teoria da Computação e Linguagens Formais 
 
